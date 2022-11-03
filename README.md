@@ -6,7 +6,7 @@ This repository provides configuration for [Laravel Pint](https://laravel.com/do
 
 1. Run `composer require --dev fusionspim/pint-coding-style`
 
-2. Add script to the projects `composer.json`:
+2. Add script to `composer.json`:
 
 ```
 {
@@ -21,9 +21,15 @@ This repository provides configuration for [Laravel Pint](https://laravel.com/do
 
 ```
 
-3. Add to projects .gitignore:
+3. Add to .gitignore:
 
-* .pint.cache
+```
+.pint.cache
+```
+
+4. Add to continuous integration workflow:
+
+`composer fix -- --test`
 
 ## Usage
 
