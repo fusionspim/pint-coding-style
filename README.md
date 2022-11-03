@@ -13,7 +13,7 @@ This repository provides configuration for [Laravel Pint](https://laravel.com/do
     ...
     "scripts": {
         ...
-        "fix": "pint --config vendor/fusionspim/pint-coding-style/pint.json",
+        "fix-cs": "pint --config vendor/fusionspim/pint-coding-style/pint.json",
         ...
     }
     ...
@@ -29,8 +29,8 @@ This repository provides configuration for [Laravel Pint](https://laravel.com/do
 
 4. Add to continuous integration workflow:
 
-`composer fix -- --test`
+`composer fix-cs -- --test`
 
 ## Usage
 
-Run `composer fix`
+Run `composer fix-cs`
