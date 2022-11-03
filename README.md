@@ -4,7 +4,7 @@ This repository provides configuration for [Laravel Pint](https://laravel.com/do
 
 ## Installation
 
-1. Run `composer require --dev fusionspim/pint-coding-style`
+1. Run `composer require --dev laravel/pint fusionspim/pint-coding-style`
 
 2. Add script to `composer.json`:
 
