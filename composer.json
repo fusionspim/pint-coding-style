@@ -1,0 +1,10 @@
+{
+  "name": "fusionspim/pint-coding-style",
+  "description": "Configuration for Laravel Pint, as used by the Fusions PIM dev team",
+  "license": "MIT",
+  "keywords": [
+    "configuration",
+    "laravel",
+    "pint"
+  ]
+}
